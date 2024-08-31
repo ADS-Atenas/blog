@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Apae - Sair</title>
+        <!-- CUSTOM STYLESHEET -->
+        <link rel="stylesheet" href="./style.css" />
+        <!-- ICONSCOUT CDN -->
+        <link
+            rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+        />
+        <!-- GOOGLE FONT (MONTSERRAT) -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <section class="form__section">
+            <div class="container form__section-container">
+                <h2>Crie sua Conta</h2>
+                <div class="alert__message error">
+                    <p>Mensagem de erro</p>
+                </div>
+                <form action="" enctype="multipart/form-data">
+                    <input type="text" placeholder="Nome" />
+                    <input type="text" placeholder="Sobrenome" />
+                    <input type="text" placeholder="nick name" />
+                    <input type="email" placeholder="e-mail" />
+                    <input type="password" placeholder="senha" />
+                    <input type="password" placeholder="confirme sua senha" />
+                    <div class="form__control">
+                        <label for="avatar">Foto de Perfil</label>
+                        <input type="file" id="avatar" />
+                    </div>
+                    <button type="submit" class="btn">Criar conta</button>
+                    <small
+                        >Possui conta?
+                        <a href="signin.html">Faça login</a></small
+                    >
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
