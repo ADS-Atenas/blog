@@ -53,27 +53,22 @@
 
         <section class="form__section">
             <div class="container form__section-container">
-                <h2>Editar Post</h2>
+                <h2>Editar Evento</h2>
                 <form action="" enctype="multipart/form-data">
                     <input type="text" placeholder="Titulo" />
                     <select>
-                        <option value="1">Categoria 01</option>
-                        <option value="1">Categoria 02</option>
-                        <option value="1">Categoria 03</option>
-                        <option value="1">Categoria 04</option>
-                        <option value="1">Categoria 05</option>
-                        <option value="1">Categoria 06</option>
+                        <option value="1">Evento</option>
                     </select>
                     <textarea rows="10" placeholder="Descrição"></textarea>
                     <div class="form__control inline">
-                        <input type="checkbox" id="is_featured" checked />
-                        <label for="is_featured">Confirmar Edição</label>
+                        <input type="date" id="date-event" />
+                        <label for="is_featured">Data do Evento</label>
                     </div>
                     <div class="form__control">
                         <label for="thumbnail">Alterar Capa</label>
                         <input type="file" id="thumbnail" />
                     </div>
-                    <button type="submit" class="btn">Atualizar Post</button>
+                    <button type="submit" class="btn">Atualizar Evento</button>
                 </form>
             </div>
         </section>
